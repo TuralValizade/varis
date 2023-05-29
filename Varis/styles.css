@@ -1,0 +1,135 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #a91079;
+}
+.sossebeke {
+  float: right;
+
+  margin-top: -43px;
+  margin-right: 10px;
+}
+.sebeke {
+  margin: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.esasul {
+  display: none;
+}
+.navelements:hover .esasul {
+  display: block;
+  position: absolute;
+  background: #2e0249;
+  color: azure;
+  margin-top: -6px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+.co {
+  margin: 4px;
+  color: yellow;
+}
+.navelements:hover .esasul ul {
+  display: block;
+  margin: 10px;
+}
+.navelements:hover .esasul ul li {
+  width: 70px;
+  padding: 1px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  list-style: none;
+  text-align: left;
+}
+.navelements:hover .esasul ul li:last-child {
+  border-bottom: none;
+}
+
+#face:hover {
+  color: blue;
+}
+#ins:hover {
+  color: rgb(245, 35, 210);
+}
+#what:hover {
+  color: green;
+}
+
+.nave {
+  position: relative;
+  margin: 270px auto 0;
+  margin-top: -8px;
+  width: 740px;
+  height: 65px;
+  background: #2e0249;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 0 2px 3px 0 rgb(0, 0, 0, 0.1);
+}
+.navelements {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: azure;
+  font-weight: bolder;
+  text-decoration: none;
+  line-height: 65px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+}
+.navelements:hover {
+  color: #2e0249;
+}
+div .animation {
+  position: absolute;
+  height: 70px;
+  top: 0;
+  z-index: 0;
+  background: #a91079;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+}
+.navelements:nth-child(1) {
+  width: 130px;
+}
+.nave .start-home,
+.navelements:nth-child(1):hover ~ .animation {
+  width: 130px;
+  left: 0;
+}
+.navelements:nth-child(2) {
+  width: 140px;
+}
+.navelements:nth-child(2):hover ~ .animation {
+  width: 140px;
+  left: 130px;
+}
+.navelements:nth-child(3) {
+  width: 130px;
+}
+.navelements:nth-child(3):hover ~ .animation {
+  width: 130px;
+  left: 270px;
+}
+.navelements:nth-child(4) {
+  width: 190px;
+}
+.navelements:nth-child(4):hover ~ .animation {
+  width: 190px;
+  left: 400px;
+}
+.navelements:nth-child(5) {
+  width: 150px;
+}
+.navelements:nth-child(5):hover ~ .animation {
+  width: 150px;
+  left: 590px;
+}
+#navoz {
+  margin: -8px;
+  background: #2e0249;
+  border-radius: 3px;
+}
